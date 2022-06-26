@@ -16,7 +16,7 @@ return (
       checked={isChecked}
       onChange={(e) => setIscheked(e.target.checked)}
     />
-    <label>{items.name}</label>
+    <label>{items.name} - {items.done.toString()}</label>
   </C.Container>
 );
 }
